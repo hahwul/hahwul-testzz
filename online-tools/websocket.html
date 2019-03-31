@@ -1,0 +1,18 @@
+[TARGET]
+
+<input id="ws_target" type="text" value="wss://echo.websocket.org" />
+
+<input onclick="connect()" type="button" value="Connect" /><input onclick="websocket.close();" type="button" value="Disconnect" />
+
+[MSG]
+
+<input id="ws_msg" type="text" value="" /><input onclick="doSend(document.getElementById(&quot;ws_msg&quot;).value);" type="button" value="Send" />
+
+
+
+<table cellpadding="5" style="width: 100%;"><tbody>
+<tr>       <td align="center" width="100%">LOGS</td>     </tr>
+<tr>       <td>
+
+<div id="ws_output" style="border: 1px solid; font-size: 12px; height: 505px; text-align: left; width: 100%;">
+</div>

@@ -1,0 +1,46 @@
+<form action="" name="frm">
+<div class="formitem" id="rulesformitem" style="display: block;">
+<div class="textwrapper">
+<textarea cols="2" name="decoded" onkeyup="run(this.value);" rows="10"></textarea>
+</div>
+<div class="textwrapper2">
+<table style="width: 100%;"><tbody>
+<tr>             <td width="50%">
+
+<span class="infont" style="font-size: xx-small;">URL Encoded data</span> (<a href="javascript:apply(document.frm.URL_encoded.value);">apply</a>);
+
+<textarea class="half" id="Textarea1" name="URL_encoded" rows="2"></textarea>
+
+<span class="infont" style="font-size: xx-small;">URL Decoded data</span> (<a href="javascript:apply(document.frm.URL_decoded.value);">apply</a>);
+
+<textarea class="half" id="Textarea2" name="URL_decoded" rows="2"></textarea>
+
+<span class="infont" style="font-size: xx-small;">HTML HEX Encoded data</span> (<a href="javascript:apply(document.frm.HEX_encoded.value);">apply</a>);
+
+<textarea class="half" id="Textarea1" name="HEX_encoded" rows="2"></textarea>
+
+<span class="infont" style="font-size: xx-small;">HTML HEX Decoded data</span> (<a href="javascript:apply(document.frm.HEX_decoded.value);">apply</a>);
+
+<textarea class="half" id="Textarea2" name="HEX_decoded" rows="2"></textarea>
+</td>             <td>
+
+<span class="infont" style="font-size: xx-small;">base64 encoded data</span> (<a href="javascript:apply(document.frm.base64_encoded.value);">apply</a>);
+
+<textarea class="half" name="base64_encoded" rows="2"></textarea>
+
+<span class="infont" style="font-size: xx-small;">base64 decode data</span> (<a href="javascript:apply(document.frm.base64_decoded.value);">apply</a>);
+
+<textarea class="half" id="Textarea3" name="base64_decoded" rows="2"></textarea>
+
+<span class="infont" style="font-size: xx-small;">UTF-8 encoded data</span> (<a href="javascript:apply(document.frm.UTF8_encoded.value);">apply</a>);
+
+<textarea class="half" id="Textarea4" name="UTF8_encoded" rows="2"></textarea>
+
+<span class="infont" style="font-size: xx-small;">UTF-8 decoded data</span> (<a href="javascript:apply(document.frm.UTF8_decoded.value);">apply</a>);
+
+<textarea class="half" id="Textarea5" name="UTF8_decoded" rows="2"></textarea>
+</td>           </tr>
+</tbody>       </table>
+</div>
+</div>
+</form>
